@@ -1,0 +1,81 @@
+/* Elementor Compatibility Styles */
+.elementor-section {
+    margin: 0 !important;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    color: var(--primary);
+}
+
+.elementor-widget-button .elementor-button {
+    background: var(--primary);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.elementor-widget-button .elementor-button:hover {
+    background: var(--secondary);
+}
+
+.elementor-widget-image-box .elementor-image-box-title {
+    color: var(--primary);
+}
+
+.elementor-widget-icon-box .elementor-icon-box-title {
+    color: var(--primary);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item {
+    margin-bottom: 10px;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-text {
+    color: var(--dark);
+}
+
+.elementor-widget-testimonial .elementor-testimonial-content {
+    font-style: italic;
+    color: var(--gray);
+}
+
+.elementor-widget-testimonial .elementor-testimonial-name {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.elementor-widget-tabs .elementor-tab-title {
+    background: var(--light);
+    border: 1px solid var(--border);
+    border-bottom: none;
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active:after {
+    display: none;
+}
+
+.elementor-widget-accordion .elementor-accordion-item {
+    border: 1px solid var(--border);
+    margin-bottom: 10px;
+}
+
+.elementor-widget-accordion .elementor-accordion-title {
+    background: var(--light);
+    padding: 15px 20px;
+    font-weight: 500;
+}
+
+.elementor-widget-accordion .elementor-accordion-icon {
+    color: var(--primary);
+}
+
+.elementor-widget-accordion .elementor-tab-content {
+    padding: 20px;
+    border-top: 1px solid var(--border);
+}

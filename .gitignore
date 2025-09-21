@@ -1,0 +1,12 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build artefacts
+node_modules/
+dist/
+vendor/
+
+# WordPress cache / zips
+*.zip

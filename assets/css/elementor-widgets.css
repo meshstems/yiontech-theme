@@ -1,0 +1,233 @@
+/* YionTech Elementor Widgets Styles */
+
+/* Course Card Widget */
+.yiontech-course-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.yiontech-course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.yiontech-course-card .course-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.yiontech-course-card .course-content {
+    padding: 20px;
+}
+
+.yiontech-course-card .course-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.yiontech-course-card .course-excerpt {
+    margin-bottom: 15px;
+    color: #666666;
+}
+
+.yiontech-course-card .course-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.yiontech-course-card .course-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.yiontech-course-card .course-button:hover {
+    background-color: #005a87;
+    color: #ffffff;
+}
+
+/* Hero Section Widget */
+.yiontech-hero-section {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #1a1a2e;
+    background-image: radial-gradient(circle at 10% 20%, rgba(255, 107, 107, 0.05) 0%, transparent 20%),
+                      radial-gradient(circle at 90% 80%, rgba(0, 115, 170, 0.05) 0%, transparent 20%);
+}
+
+.yiontech-hero-section .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.yiontech-hero-section .hero-title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.yiontech-hero-section .hero-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+.yiontech-hero-section .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.yiontech-hero-section .hero-primary-button,
+.yiontech-hero-section .hero-secondary-button {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.yiontech-hero-section .hero-primary-button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+}
+
+.yiontech-hero-section .hero-secondary-button {
+    background-color: #ffffff;
+    color: #1a1a2e;
+}
+
+.yiontech-hero-section .hero-primary-button:hover,
+.yiontech-hero-section .hero-secondary-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.yiontech-hero-section .hero-students {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.yiontech-hero-section .student-count {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff6b6b;
+}
+
+.yiontech-hero-section .student-text {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+/* Testimonials Widget */
+.yiontech-testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.yiontech-testimonial {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.yiontech-testimonial .testimonial-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    font-style: italic;
+}
+
+.yiontech-testimonial .client-info {
+    display: flex;
+    align-items: center;
+}
+
+.yiontech-testimonial .client-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.yiontech-testimonial .client-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yiontech-testimonial .client-details {
+    flex: 1;
+}
+
+.yiontech-testimonial .client-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    color: #0073aa;
+}
+
+.yiontech-testimonial .client-position {
+    font-size: 14px;
+    margin: 0;
+    color: #666666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .yiontech-hero-section {
+        padding: 60px 0;
+    }
+    
+    .yiontech-hero-section .hero-title {
+        font-size: 32px;
+    }
+    
+    .yiontech-hero-section .hero-description {
+        font-size: 16px;
+    }
+    
+    .yiontech-hero-section .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .yiontech-hero-section .hero-primary-button,
+    .yiontech-hero-section .hero-secondary-button {
+        width: 100%;
+    }
+    
+    .yiontech-testimonials {
+        flex-direction: column;
+    }
+    
+    .yiontech-testimonial {
+        width: 100%;
+    }
+}

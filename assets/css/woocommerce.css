@@ -1,0 +1,100 @@
+/* WooCommerce Styles */
+.woocommerce .site-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.woocommerce .content-area {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.woocommerce .widget-area {
+    width: 300px;
+}
+
+.woocommerce-result-count,
+.woocommerce-ordering {
+    margin-bottom: 20px;
+}
+
+.woocommerce ul.products li.product {
+    text-align: center;
+    border: 1px solid var(--border);
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.woocommerce ul.products li.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 15px;
+}
+
+.woocommerce div.product .product_title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+    font-size: 24px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: 1px solid var(--border);
+    border-bottom: none;
+    background: var(--light);
+    margin-right: 10px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    padding: 10px 20px;
+    display: block;
+    color: var(--dark);
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid var(--border);
+}
+
+.woocommerce-checkout .woocommerce-checkout-payment {
+    background: var(--light);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.woocommerce-checkout .woocommerce-checkout-payment .button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    width: 75%;
+    float: left;
+}

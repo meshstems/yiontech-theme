@@ -1,0 +1,157 @@
+/* Tutor LMS Styles */
+.tutor-courses-loop-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.tutor-courses-loop-item {
+    width: calc(33.333% - 30px);
+    margin: 0 15px 30px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tutor-courses-loop-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.tutor-course-thumbnail {
+    height: 200px;
+    overflow: hidden;
+}
+
+.tutor-course-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tutor-course-loop-header {
+    padding: 15px;
+}
+
+.tutor-course-loop-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.tutor-course-loop-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.tutor-course-loop-price {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.tutor-course-loop-footer {
+    padding: 0 15px 15px;
+}
+
+.tutor-course-loop-enroll-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.tutor-course-loop-enroll-btn:hover {
+    background: var(--secondary);
+}
+
+.tutor-single-course-sidebar {
+    width: 300px;
+    float: right;
+    margin-left: 30px;
+}
+
+.tutor-single-course-content {
+    width: calc(100% - 330px);
+    float: left;
+}
+
+.tutor-course-enroll-box {
+    background: var(--light);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.tutor-course-enroll-box .tutor-enroll-box-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.tutor-course-enroll-box .tutor-enroll-box-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.tutor-course-enroll-box .tutor-enroll-box-btn:hover {
+    background: var(--secondary);
+}
+
+.tutor-dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tutor-dashboard-left-menu {
+    width: 25%;
+    padding-right: 30px;
+}
+
+.tutor-dashboard-content-inner {
+    width: 75%;
+}
+
+.tutor-dashboard-menu-list {
+    list-style: none;
+    background: var(--light);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tutor-dashboard-menu-list li {
+    border-bottom: 1px solid var(--border);
+}
+
+.tutor-dashboard-menu-list li:last-child {
+    border-bottom: none;
+}
+
+.tutor-dashboard-menu-list a {
+    display: block;
+    padding: 15px 20px;
+    color: var(--dark);
+    transition: background 0.3s ease;
+}
+
+.tutor-dashboard-menu-list a:hover,
+.tutor-dashboard-menu-list li.current-menu-item a {
+    background: var(--primary);
+    color: #fff;
+}
